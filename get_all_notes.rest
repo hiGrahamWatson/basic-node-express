@@ -1,0 +1,10 @@
+GET http://localhost:3001/api/notes
+
+###  // use to make multiple requests in the same document. 
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+   "content": "VS Code Rest client is pretty good",
+   "important": false
+}
